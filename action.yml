@@ -1,6 +1,8 @@
 name: 'Armbian/build'
 description: 'Armbian Linux build framework'
 inputs:
+  branch:
+    required: false
   board:
     required: true
   flavor:
